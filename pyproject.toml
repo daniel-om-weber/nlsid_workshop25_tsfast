@@ -1,0 +1,17 @@
+[project]
+name = "nlsid-workshop25-tsfast"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=6.29.5",
+    "nbdev>=2.4.2",
+    "tsfast>=0.1.0",
+]
+
+[tool.uv.sources]
+#tsfast = { path = "../tsfast", editable = true }
+
+[tool.ruff]
+ignore = ["F403","F405","E702"]
